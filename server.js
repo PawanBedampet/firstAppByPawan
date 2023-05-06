@@ -8,8 +8,8 @@ app.use(cors());
 
 app.use(express.static(path.join(__dirname, "./client/build")));
 
-app.listen(1234, () => {
-  console.log("Listening to Port 1234");
+app.listen(4343, () => {
+  console.log("Listening to Port 4343");
 });
 
 const mongoose = require("mongoose");
