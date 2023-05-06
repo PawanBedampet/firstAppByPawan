@@ -18,7 +18,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div style={{ textAlign: "center" }}>
       <button
         onClick={() => {
           getDataFromServer();
